@@ -1,24 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className='blue_strip'><h3>Aumente em até 70% seus agendamentos automáticos</h3></div>
+      <Header />
     </div>
+    
   );
 }
 
