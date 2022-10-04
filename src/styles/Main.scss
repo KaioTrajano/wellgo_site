@@ -1,0 +1,212 @@
+$color:#F5F7FA;
+$color2:#0C1C46;
+$color3:#FED605;
+$secundary_color: #1D4FFF;
+
+
+
+.title_section{
+    background: $color;
+}
+
+.title_cont{
+    
+    text-align: center;
+    padding-top: 4rem;
+    width: 46rem;
+    margin: 0 auto;
+}
+
+.title_cont h2{
+    padding-top: 1rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.online_scheduling{
+    
+    padding-top: 8rem;
+    background: $color;
+    
+}
+
+.online_payment_section{
+    padding-top: 8rem;
+    background: $color;
+}
+
+.online_scheduling h3{
+    
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+    color: $color2;
+    
+}
+
+.online_payment_cont h3{
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+    color: $color2;
+}
+
+.online_scheduling img{
+    
+    width: 30rem;
+   
+    
+}
+
+.online_payment_img{
+    float: right;
+    width: 30rem;
+    padding-left: 3rem;
+    
+    
+}
+
+.online_payment_img_cont{
+    width: 70%;
+    float: left;
+}
+
+.teste{
+    width: 70%;
+    float: right;
+    padding-right: 5rem;
+}
+
+.online_payment_cont{
+    width: 70%;
+    float: unset;
+}
+
+.online_scheduling h5{
+    padding-top: 2rem;
+    color: $secundary_color;
+}
+
+.online_payment_cont h5{
+    padding-top: 2rem;
+    color: $secundary_color;
+}
+
+.register_now{
+  background-color: $color3;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.banner{
+    
+    background: $color;
+    text-align: center;
+}
+
+.banner img{
+    width: 60%;
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .online_payment_img_cont{
+        width: 90%;
+        float: unset;
+    }
+}
+
+
+@media (max-width: 630px){
+
+    .teste{
+        width: 100%;
+        float: unset;
+        margin: auto;
+        padding-right: 0rem;
+        
+
+    }
+
+    .online_payment_cont h3{
+        padding-top: 3rem;
+        font-size: 2rem;
+    }
+
+    .online_payment_cont{
+        width: 100%;
+        text-align: center;
+        float: unset;
+        margin: auto;
+    }
+
+    .online_payment_img_cont{
+       width: 100%;
+        margin: auto;
+        float: unset;
+        
+        
+        
+    }
+
+    .online_payment_img{
+       
+        width: 23.5rem;
+        padding-left: 0rem;
+        float: unset;
+        margin: auto;
+        
+        
+    }
+
+    .title_cont{
+        width: 80%;
+    }
+
+
+    .title_cont h2{
+        
+        font-size: 1.5rem;
+        
+    }
+
+    .title_cont h5{
+        font-size: 14px;
+        color: $secundary_color;
+        
+    }
+
+
+    .cell{
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .online_scheduling{
+    
+       text-align: center;
+
+        
+    }
+
+    .online_scheduling img{
+    
+        padding-top: 3rem;
+        
+        
+    }
+
+    .online_scheduling h3{
+    
+       padding-bottom: 3rem;
+        
+    }
+    
+}
