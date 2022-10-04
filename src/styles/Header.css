@@ -1,0 +1,327 @@
+.header{
+    background-image: url(/public/headerbackground.png);
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 2em;
+}
+
+.inputbox{
+    text-align: center;
+    width: 25rem;
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.inputbox button{
+    background: #FED605;
+    border-radius: 5rem;
+    padding: 1rem;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+   top: 5px;
+   right: 5px;
+}
+
+.Header_input{
+    border-radius: 3.75rem;
+    padding: 1.25rem;
+    border: 1px solid black;
+    width: 25rem;
+    box-shadow: 0px 8px 25px rgba(13, 10, 44, 0.06);
+    border: none;
+
+}
+
+.input_description{
+    font-size: 1rem;
+    
+    
+}
+
+.input_description_box{
+    position: absolute;
+    right: -15rem;
+    top: 4rem;
+
+}
+
+.header_text_cont{
+    padding-top: 22rem;
+    text-align: center;
+  
+}
+
+.header_text{
+    color: white;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.header_text h5{
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5%;
+}
+
+.header_text h4{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FED605;
+    
+}
+
+.header_text h2{
+    line-height: 2.4rem;
+    font-size: 2.3rem;
+}
+
+.header_text_list{
+    display: block;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.header_text_list li{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+
+.header_text_list li::marker{
+    color: #FED605;
+    font-size: 2rem;
+    
+}
+
+
+
+@media (min-width:1900px){
+
+    .header{
+        background-image: url(/public/headerbackground.png);
+        width: 100%;
+        height: 90rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        
+    }
+
+    .header_text_cont{
+        padding-top: 35rem;
+        text-align: center;
+      
+    }
+    
+    h1{
+       
+        padding-top: 14rem;
+       
+        
+    }
+
+    .inputbox{
+        
+        top: 33rem;
+        
+    }
+      
+
+
+}
+
+@media (min-width:1440px) and (max-width:1900px) {
+  
+    .header{
+        background-image: url(/public/headerbackground.png);
+        width: 100%;
+        height: 66rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        
+    }
+
+
+    h1{
+       
+        padding-top: 10rem;
+       
+        
+    }
+
+    .inputbox{
+        
+        top: 26rem;
+        
+    }
+    
+ 
+}
+
+@media (max-width:910px){
+    .input_description_box{
+       
+        right: 0rem;
+        top: 4rem;
+       
+        
+    }
+
+}
+
+
+@media (max-width:640px){
+
+    .header_text_cont{
+        padding-top: 45rem;
+        text-align: center;
+      
+    }
+    .header_text{
+        
+        text-align: center;
+      
+    }
+    
+    .header_text h2{
+        
+        font-size: 1.5rem;
+    }
+
+
+    h1{
+        text-align: center;
+        padding-top: 5.5rem;
+        font-size: 1.5rem;
+    }
+
+    .header{
+        background-image: url(/public/headerbackground_mobile.png);
+        width: 100%;
+        height: 2000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+       
+        
+    }
+
+    .Header_input{
+        border-radius: 3.75rem;
+        padding: 2rem;
+        width: 18.8rem;
+        box-shadow: 0px 8px 25px rgba(13, 10, 44, 0.06);
+        border: none;
+    
+    }
+    
+
+    .inputbox{
+        text-align: center;
+        width: 15rem;
+        position: absolute;
+        top: 23rem;
+        left: 45%;
+        transform: translate(-50%, 0);
+        
+    }
+
+    .inputbox button{
+        background: #FED605;
+        border-radius: 5rem;
+        padding: 2rem;
+        border: none;
+        font-weight: bold;
+        position: absolute;
+        width: 19rem;
+       top: 6rem;
+       left: 63%;
+        transform: translate(-50%, 0);
+    }
+
+
+    .input_description_box{
+        
+         left: 25%;
+        top: 11.5rem;
+       
+        
+    }
+
+    .header_text_list{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+
+}
+
+@media (max-width:480px){
+
+    .blue_strip h3{
+        font-size: 13px;
+    }
+
+
+    .header{
+        background-image: url(/public/headerbackground_mobile.png);
+        width: 100%;
+        height: 1500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        
+    }
+
+
+    .inputbox{
+    
+        left: 42%;
+       
+        
+    }
+
+
+    .header_text_cont{
+        padding-top: 25rem;
+        text-align: center;
+      
+    }
+    .header_text{
+        
+        text-align: center;
+      
+    }
+
+    .header_text h2{
+        
+        font-size: 1.5rem;
+    }
+
+    .header_text_list{
+        width: 80%;
+        padding-left: 15%
+        
+    }
+
+    
+}
